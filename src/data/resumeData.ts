@@ -7,7 +7,7 @@ export const resumeData: ResumeData = {
     role: 'Frontend Developer',
     github: 'github.com/dudpray0220',
     email: 'qodudgus0220@naver.com',
-    about: `커뮤니케이션 능력, 배우고자 하는 마음, 그리고 긍정적인 태도를 가지고 있는 프론트엔드 개발자 배영현 입니다ㅁㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇ.
+    about: `커뮤니케이션 능력, 배우고자 하는 마음, 그리고 긍정적인 태도를 가지고 있는 프론트엔드 개발자 배영현 입니다zzzzzzzzz.
     사용자 경험과 성능 최적화에 진심이며, 코드 리뷰를 통한 코드 개선을 좋아합니다.
     경제금융에서의 직종전환 그리고 C#에서 FrontEnd로의 전환을 한만큼 배워서 성장하고자하는 마음이 아주 큽니다.`,
   },
