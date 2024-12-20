@@ -1,7 +1,11 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export', // Static HTML 내보내기를 위한 설정
+  images: {
+    unoptimized: true,
+  },
+  basePath: '',
+  assetPrefix: '',
 };
 
-export default nextConfig;
+module.exports = nextConfig;
