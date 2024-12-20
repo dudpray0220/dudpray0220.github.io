@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Static HTML 내보내기를 위한 설정
+  output: 'export',
   images: {
     unoptimized: true,
   },
-  basePath: '/my_resume',
-  assetPrefix: '/my_resume/',
+  basePath: '',
+  assetPrefix: '',
 };
 
 module.exports = nextConfig;
