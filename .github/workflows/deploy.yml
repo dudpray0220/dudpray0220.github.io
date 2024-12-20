@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - master # master 브랜치에 push할 때마다 배포
 
 jobs:
   build-and-deploy:
