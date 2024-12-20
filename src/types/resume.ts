@@ -1,4 +1,5 @@
-// src/types/resume.ts
+export type Company = 'Tmax Gaia' | 'Tilon';
+
 export interface Profile {
   name: string;
   role: string;
@@ -24,8 +25,14 @@ export interface Project {
   period: string;
   achievements: string[];
   stack: string[];
+  company: Company;
 }
 
+export interface Education {
+  school: string;
+  major: string;
+  period: string;
+}
 export interface ResumeData {
   profile: Profile;
   skills: {
@@ -38,4 +45,5 @@ export interface ResumeData {
   };
   experiences: Experience[];
   projects: Project[];
+  education: Education[];
 }

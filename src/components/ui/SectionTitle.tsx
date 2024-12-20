@@ -5,5 +5,10 @@ interface SectionTitleProps {
 }
 
 export const SectionTitle: React.FC<SectionTitleProps> = ({ title }) => {
-  return <h2 className="text-2xl font-bold text-gray-900 mb-6">{title}</h2>;
+  return (
+    <div className="flex items-center gap-4 mb-8">
+      <h2 className="text-2xl font-bold text-gray-900">{title}</h2>
+      <div className="h-px flex-1 bg-gradient-to-r from-gray-200 to-transparent" />
+    </div>
+  );
 };

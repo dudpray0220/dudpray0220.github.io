@@ -9,7 +9,7 @@ interface ExperienceProps {
 
 export const Experience: React.FC<ExperienceProps> = ({ experiences }) => {
   return (
-    <section className="mb-12">
+    <section className="mb-16">
       <SectionTitle title="Experience" />
       <div className="space-y-8">
         {experiences.map((exp, idx) => (

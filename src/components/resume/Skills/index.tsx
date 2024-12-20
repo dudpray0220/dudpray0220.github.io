@@ -15,7 +15,7 @@ interface SkillsProps {
 
 export const Skills: React.FC<SkillsProps> = ({ skills }) => {
   return (
-    <section className="mb-12">
+    <section className="mb-16"> 
       <SectionTitle title="Skills" />
       <div className="space-y-6">
         <SkillSection title="Language" items={skills.language} />

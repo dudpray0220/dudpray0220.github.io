@@ -9,7 +9,7 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({ profile }) => {
   return (
-    <header className="mb-12 pb-8 border-b border-gray-200">
+    <header className="mb-16 pb-8 border-b border-gray-200"> 
       <div className="flex justify-between items-start mb-6">
         <div>
           <h1 className="text-4xl font-bold text-gray-900 mb-2">{profile.name}</h1>
