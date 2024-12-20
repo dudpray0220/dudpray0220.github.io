@@ -3,7 +3,7 @@ import type { ResumeData } from '../types/resume';
 
 export const resumeData: ResumeData = {
   profile: {
-    name: '배영현',
+    name: '배영현ㅋㅋ',
     role: 'Frontend Developer',
     github: 'github.com/dudpray0220',
     email: 'qodudgus0220@naver.com',
