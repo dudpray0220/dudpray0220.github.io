@@ -103,7 +103,7 @@ export const resumeData: ResumeData = {
         'UI/UX 디자이너와 협업해 복잡한 서버 관리 플로우를 단계적 폼, 명확한 피드백, 일관된 컴포넌트 패턴으로 개선',
         'Jest와 React Testing Library를 활용해 폼 입력, validation, 비동기 상태, 예외 케이스 중심의 테스트 코드를 작성하여 회귀 안정성 확보',
       ],
-      stack: ['React', 'TypeScript', 'FSD', 'Jest', 'React Testing Library', 'Figma'],
+      stack: ['React', 'TypeScript', 'Jest', 'React Testing Library', 'Figma'],
     },
     {
       title: 'UI 라이브러리 개발',
