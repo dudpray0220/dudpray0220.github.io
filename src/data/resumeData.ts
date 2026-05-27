@@ -99,7 +99,6 @@ export const resumeData: ResumeData = {
       period: '2025.06 ~ 2026.01',
       achievements: [
         'JEUS 각 버전의 WebAdmin 화면을 개발 및 유지보수하며 버전별로 다른 설정, 상태, 운영 모델을 도메인 단위로 정리',
-        'Feature-Sliced Design 구조를 적용해 pages, widgets, features, entities, shared 계층의 책임을 명확히 분리하고 신규 메뉴 및 기능 추가 시 변경 범위를 축소',
         '엔진 개발자와 API 응답 구조, 설정 검증 규칙, 서버 상태 및 에러 표현 방식을 협의하여 운영자가 이해하기 쉬운 UI 상태로 매핑',
         'UI/UX 디자이너와 협업해 복잡한 서버 관리 플로우를 단계적 폼, 명확한 피드백, 일관된 컴포넌트 패턴으로 개선',
         'Jest와 React Testing Library를 활용해 폼 입력, validation, 비동기 상태, 예외 케이스 중심의 테스트 코드를 작성하여 회귀 안정성 확보',
