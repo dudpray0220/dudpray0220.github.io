@@ -68,7 +68,7 @@ export const resumeData: ResumeData = {
       title: 'Gensio',
       description: 'Next.js/React/TypeScript 기반 AI 이미지 생성 SaaS 개발 및 운영',
       projectUrl: 'https://gensio.app/',
-      projectUrlLabel: 'Gensio 공식 웹사이트',
+      projectUrlLabel: 'https://gensio.app/',
       achievements: [
         '사용자가 이미지를 업로드하고 스타일을 선택해 AI 이미지를 생성할 수 있는 웹 기반 SaaS를 기획, 개발, 배포',
         '이미지 업로드, 스타일 선택, 생성 요청, 결과 확인, 생성 히스토리까지 이어지는 핵심 사용자 플로우 구현',
