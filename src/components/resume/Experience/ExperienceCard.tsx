@@ -3,13 +3,13 @@ import type { Experience } from '../../../types/resume';
 
 export const ExperienceCard: React.FC<Experience> = ({ company, period, role, achievements }) => {
   return (
-    <div className="group p-6 rounded-lg hover:bg-gray-50 transition-all">
-      <div className="flex justify-between items-baseline mb-4">
-        <div>
+    <div className="group rounded-lg transition-all sm:p-6 sm:hover:bg-gray-50">
+      <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-baseline sm:justify-between">
+        <div className="min-w-0">
           <h3 className="text-2xl font-bold text-gray-900 mb-1">{company}</h3>
           <p className="text-indigo-600 font-semibold">{role}</p>
         </div>
-        <span className="text-base font-medium text-gray-600 bg-gray-50 px-4 py-1.5 rounded-full">
+        <span className="w-fit rounded-full bg-gray-50 px-4 py-1.5 text-base font-medium text-gray-600">
           {period}
         </span>
       </div>

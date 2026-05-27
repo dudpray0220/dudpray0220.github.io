@@ -1,4 +1,4 @@
-export type Company = 'Tmax Gaia' | 'Tilon';
+export type Company = 'Tmax Soft' | 'Tmax Gaia' | 'Tilon';
 
 export interface Profile {
   name: string;
@@ -28,6 +28,15 @@ export interface Project {
   company: Company;
 }
 
+export interface PersonalProduct {
+  title: string;
+  description: string;
+  achievements: string[];
+  stack: string[];
+  projectUrl?: string;
+  projectUrlLabel?: string;
+}
+
 export interface Education {
   school: string;
   major: string;
@@ -44,6 +53,7 @@ export interface ResumeData {
     etc: string[];
   };
   experiences: Experience[];
+  personalProducts: PersonalProduct[];
   projects: Project[];
   education: Education[];
 }

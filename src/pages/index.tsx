@@ -1,15 +1,24 @@
 import type { NextPage } from 'next';
-import { Header, About, Skills, Experience, Projects, EducationCard } from '../components/resume';
+import {
+  Header,
+  About,
+  Experience,
+  PersonalProducts,
+  Projects,
+  Skills,
+  EducationCard,
+} from '../components/resume';
 import { resumeData } from '../data/resumeData';
 
 const Home: NextPage = () => {
   return (
-    <main className="max-w-7xl mx-auto py-16 px-12 font-sans">
+    <main className="mx-auto max-w-7xl px-5 py-10 font-sans sm:px-8 sm:py-16 lg:px-12">
       <Header profile={resumeData.profile} />
       <About about={resumeData.profile.about} />
-      <Skills skills={resumeData.skills} />
       <Experience experiences={resumeData.experiences} />
+      <PersonalProducts products={resumeData.personalProducts} />
       <Projects projects={resumeData.projects} />
+      <Skills skills={resumeData.skills} />
       <EducationCard education={resumeData.education} />
     </main>
   );

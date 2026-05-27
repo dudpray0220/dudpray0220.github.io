@@ -11,12 +11,12 @@ export const IconLink: React.FC<IconLinkProps> = ({ href, icon: Icon, text }) =>
   return (
     <a
       href={href}
-      className="flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors"
+      className="flex min-w-0 items-center gap-2 text-gray-600 transition-colors hover:text-blue-600"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <Icon className="w-5 h-5" />
-      <span>{text}</span>
+      <Icon className="h-5 w-5 shrink-0" />
+      <span className="break-all">{text}</span>
     </a>
   );
 };

@@ -4,6 +4,11 @@ import type { Project, Company } from '../../../types/resume';
 
 export const ProjectCard: React.FC<Project> = ({ title, period, achievements, stack, company }) => {
   const companyStyles: Record<Company, string> = {
+    'Tmax Soft': `
+      bg-sky-100 text-sky-700
+      border border-sky-300
+      shadow-sm
+    `,
     'Tmax Gaia': `
       bg-emerald-100 text-emerald-700
       border border-emerald-300
@@ -17,9 +22,9 @@ export const ProjectCard: React.FC<Project> = ({ title, period, achievements, st
   };
 
   return (
-    <div className="group p-6 rounded-lg hover:bg-gray-50 transition-all mb-8">
-      <div className="flex justify-between items-center mb-4">
-        <div className="flex items-center gap-2">
+    <div className="group mb-8 rounded-lg transition-all sm:p-6 sm:hover:bg-gray-50">
+      <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+        <div className="flex min-w-0 flex-wrap items-center gap-2">
           <h3 className="text-xl font-bold text-gray-900">{title}</h3>
           <span
             className={`
@@ -33,7 +38,7 @@ export const ProjectCard: React.FC<Project> = ({ title, period, achievements, st
             {company}
           </span>
         </div>
-        <span className="text-base font-medium text-gray-600 bg-gray-50 px-4 py-1.5 rounded-full">
+        <span className="w-fit shrink-0 rounded-full bg-gray-50 px-4 py-1.5 text-base font-medium text-gray-600">
           {period}
         </span>
       </div>

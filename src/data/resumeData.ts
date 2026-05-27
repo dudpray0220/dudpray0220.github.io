@@ -22,6 +22,18 @@ export const resumeData: ResumeData = {
   },
   experiences: [
     {
+      company: 'Tmax Soft',
+      period: '2025.06 ~',
+      role: 'Frontend Developer',
+      achievements: [
+        'JEUS 9, JEUS 21, JEUS 8.6 및 WebtoB 6 WebAdmin 프론트엔드 개발을 담당하며 엔진 관리 도메인의 복잡한 설정, 모니터링, 운영 플로우를 사용자 중심 화면으로 구조화',
+        'Feature-Sliced Design 기반으로 도메인, 기능, 공통 UI 계층을 분리하여 신규 엔진 버전 대응과 유지보수에 유리한 프론트엔드 구조 설계 및 개선',
+        'UI/UX 디자이너와 화면 정책, 인터랙션, 상태 표현, 오류 및 빈 값 케이스를 조율하며 운영 관리 도구의 사용성과 일관성 개선',
+        '각 엔진 개발자와 API 스펙, 설정 모델, 예외 케이스를 지속적으로 맞추며 프론트엔드와 엔진 간 데이터 계약 안정화',
+        'Jest, React Testing Library 기반 테스트 코드를 작성해 주요 폼, 상태 전환, 검증 로직의 회귀를 방지하고 안정적인 배포 흐름에 기여',
+      ],
+    },
+    {
       company: 'Tmax Gaia',
       period: '2023.09 ~ 2024.10',
       role: 'Frontend Developer',
@@ -51,7 +63,49 @@ export const resumeData: ResumeData = {
       achievements: ['개발 외 경험이지만, 이 경험을 통해 커뮤니케이션 능력을 많이 향상시킴'],
     },
   ],
+  personalProducts: [
+    {
+      title: 'Gensio',
+      description: 'Next.js/React/TypeScript 기반 AI 이미지 생성 SaaS 개발 및 운영',
+      projectUrl: 'https://gensio.app/',
+      projectUrlLabel: 'Gensio 공식 웹사이트',
+      achievements: [
+        '사용자가 이미지를 업로드하고 스타일을 선택해 AI 이미지를 생성할 수 있는 웹 기반 SaaS를 기획, 개발, 배포',
+        '이미지 업로드, 스타일 선택, 생성 요청, 결과 확인, 생성 히스토리까지 이어지는 핵심 사용자 플로우 구현',
+        '인증, 결제, 크레딧 차감, 실패 환불, 중복 요청 방지 등 실제 서비스 운영에 필요한 상태 관리 및 예외 처리 구현',
+        '다국어 지원과 모바일 사용성을 고려하여 글로벌 사용자를 대상으로 한 웹 서비스 구조 구성',
+        '배포 이후 API 비용, 결제 흐름, 사용자 행동을 고려하며 운영 가능한 제품 형태로 개선',
+      ],
+      stack: ['Next.js', 'React', 'TypeScript', 'Supabase', 'Payment', 'AI API', 'Vercel'],
+    },
+  ],
   projects: [
+    {
+      title: 'WebtoB 6 WebAdmin 개발',
+      company: 'Tmax Soft',
+      period: '2026.01 ~',
+      achievements: [
+        'WebtoB 6 WebAdmin의 설정, 관리, 운영 화면을 개발하며 웹 서버 엔진 도메인에 맞는 프론트엔드 플로우 구현',
+        'FSD 기반으로 엔진 도메인 로직과 공통 UI 로직을 분리하여 기능 확장과 유지보수가 쉬운 구조로 개선',
+        '목록, 상세, 편집, 검증 플로우에서 반복되는 Form, Table, Modal 패턴을 공통화해 화면 간 사용성과 개발 생산성 향상',
+        '엔진 개발자와 설정 모델, API 계약, 예외 응답을 맞추며 WebAdmin 화면에서 신뢰도 높은 상태 표현과 오류 처리가 가능하도록 개발',
+        '주요 사용자 시나리오에 대한 테스트 코드를 작성해 설정 변경, 입력 검증, 상태 전환 과정의 회귀 리스크를 낮춤',
+      ],
+      stack: ['React', 'TypeScript', 'FSD', 'Jest', 'React Testing Library'],
+    },
+    {
+      title: 'JEUS 9, 21, 8.6 WebAdmin 개발 및 유지보수',
+      company: 'Tmax Soft',
+      period: '2025.06 ~ 2026.01',
+      achievements: [
+        'JEUS 각 버전의 WebAdmin 화면을 개발 및 유지보수하며 버전별로 다른 설정, 상태, 운영 모델을 도메인 단위로 정리',
+        'Feature-Sliced Design 구조를 적용해 pages, widgets, features, entities, shared 계층의 책임을 명확히 분리하고 신규 메뉴 및 기능 추가 시 변경 범위를 축소',
+        '엔진 개발자와 API 응답 구조, 설정 검증 규칙, 서버 상태 및 에러 표현 방식을 협의하여 운영자가 이해하기 쉬운 UI 상태로 매핑',
+        'UI/UX 디자이너와 협업해 복잡한 서버 관리 플로우를 단계적 폼, 명확한 피드백, 일관된 컴포넌트 패턴으로 개선',
+        'Jest와 React Testing Library를 활용해 폼 입력, validation, 비동기 상태, 예외 케이스 중심의 테스트 코드를 작성하여 회귀 안정성 확보',
+      ],
+      stack: ['React', 'TypeScript', 'FSD', 'Jest', 'React Testing Library', 'Figma'],
+    },
     {
       title: 'UI 라이브러리 개발',
       company: 'Tmax Gaia',

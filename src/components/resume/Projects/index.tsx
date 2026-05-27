@@ -9,7 +9,7 @@ interface ProjectsProps {
 
 export const Projects: React.FC<ProjectsProps> = ({ projects }) => {
   return (
-    <section className="mb-16">
+    <section className="mb-12 sm:mb-16">
       <SectionTitle title="Projects" />
       <div className="space-y-8">
         {projects.map((project, idx) => (

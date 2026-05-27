@@ -9,13 +9,15 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({ profile }) => {
   return (
-    <header className="mb-16 pb-8 border-b border-gray-200">
-      <div className="flex justify-between items-start mb-6">
-        <div>
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">{profile.name}</h1>
+    <header className="mb-12 border-b border-gray-200 pb-8 sm:mb-16">
+      <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
+        <div className="min-w-0">
+          <h1 className="mb-2 break-words text-3xl font-bold text-gray-900 sm:text-4xl">
+            {profile.name}
+          </h1>
           <h2 className="text-xl text-gray-600">{profile.role}</h2>
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex min-w-0 flex-col gap-2">
           <IconLink href={`https://${profile.github}`} icon={Github} text={profile.github} />
           {/* <IconLink href={`mailto:${profile.email}`} icon={Mail} text={profile.email} /> */}
         </div>
