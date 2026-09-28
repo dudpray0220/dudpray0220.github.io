@@ -9,11 +9,11 @@ interface ProjectsProps {
 
 export const Projects: React.FC<ProjectsProps> = ({ projects }) => {
   return (
-    <section className="mb-12 sm:mb-16">
-      <SectionTitle title="Projects" />
-      <div className="space-y-8">
-        {projects.map((project, idx) => (
-          <ProjectCard key={idx} {...project} />
+    <section id="selected-work" className="mb-16 scroll-mt-8 sm:mb-24">
+      <SectionTitle title="Selected Work" />
+      <div className="grid gap-5 lg:grid-cols-2">
+        {projects.map((project) => (
+          <ProjectCard key={project.title} {...project} />
         ))}
       </div>
     </section>

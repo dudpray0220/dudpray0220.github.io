@@ -9,9 +9,9 @@ interface PersonalProductsProps {
 
 export const PersonalProducts: React.FC<PersonalProductsProps> = ({ products }) => {
   return (
-    <section className="mb-12 sm:mb-16">
-      <SectionTitle title="Personal Product" />
-      <div className="space-y-8">
+    <section id="products" className="mb-16 scroll-mt-8 sm:mb-24">
+      <SectionTitle title="Personal Products" />
+      <div className="space-y-4">
         {products.map((product) => (
           <PersonalProductCard key={product.title} {...product} />
         ))}

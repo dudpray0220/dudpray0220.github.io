@@ -11,7 +11,7 @@ export const IconLink: React.FC<IconLinkProps> = ({ href, icon: Icon, text }) =>
   return (
     <a
       href={href}
-      className="flex min-w-0 items-center gap-2 text-gray-600 transition-colors hover:text-blue-600"
+      className="flex min-w-0 items-center gap-2 text-gray-600 transition-colors hover:text-teal-800"
       target="_blank"
       rel="noopener noreferrer"
     >
