@@ -4,7 +4,7 @@ export const resumeData: ResumeData = {
   profile: {
     name: '배영현',
     role: 'Frontend Engineer',
-    eyebrow: '개발 경력 약 4년',
+    eyebrow: '개발 경력 4년+',
     headline: 'React·TypeScript로 기업용 WebAdmin과 웹 서비스를 개발해온 프론트엔드 엔지니어입니다.',
     introduction: [
       '티맥스소프트에서 JEUS·WebtoB WebAdmin을 개발했고, 현재는 JEUS의 Java·Servlet·HTTP 요청 처리까지 직접 분석·수정하고 있습니다.',
@@ -63,7 +63,7 @@ export const resumeData: ResumeData = {
       title: 'WebtoB 6 WebAdmin 신규 화면·구조 개발',
       company: 'Tmax Soft',
       period: '2026.01 ~ 2026.04',
-      summary: 'Figma 기반 Overview와 설정 화면을 구현하고 조회 API·query·DTO를 연결했습니다.',
+      summary: 'Figma 기반 Overview와 설정 화면을 구현하고 조회 API와 DTO를 연결했습니다.',
       achievements: [
         'widgets/overview에 몰려 있던 UI를 카드·섹션 단위로 나누고 event·history·license·ssl 도메인에 맞춰 구조를 정리했습니다.',
         'HTTP Header·Error Document·URL Rewrite·Access Policy 네 화면의 반복 목록 UI를 공통화했습니다.',
@@ -85,7 +85,7 @@ export const resumeData: ResumeData = {
       title: 'HTTP 요청을 Servlet/WAS 내부까지 추적',
       company: 'Tmax Soft',
       period: '2026.07 ~ 현재',
-      summary: 'JEUS의 Servlet·Valve 호출과 HTTP 응답 생성 경로를 재현하고 코드로 확인했습니다.',
+      summary: 'JEUS의 Servlet·Valve 호출과 HTTP 응답 생성 경로를 재현하며 실제 코드 흐름을 추적했습니다.',
       achievements: [
         '허용 요청에서 다음 Valve가 두 번 호출되는 분기를 찾아 후속 호출을 한 곳으로 모았습니다.',
         'Content-Length와 Transfer-Encoding이 함께 출력되는 현상을 재현하고, 응답 헤더와 서버 내부 길이 상태가 달라지는 코드 경로를 추적했습니다.',
@@ -100,7 +100,7 @@ export const resumeData: ResumeData = {
       description: 'Next.js·TypeScript 기반 AI 이미지 생성 서비스',
       achievements: [
         '기획부터 개발·배포까지 직접 진행하고 인증·결제·크레딧·이미지 생성 히스토리를 구현했습니다.',
-        '실제 유료 결제가 발생한 서비스를 운영하며 결제 흐름과 AI API 비용을 관리하고 있습니다.',
+        '실제 유료 결제가 발생했으며, 출시 후 결제 흐름과 AI API 비용을 점검하며 운영하고 있습니다.',
       ],
       stack: ['Next.js', 'React', 'TypeScript', 'Supabase', 'Payment', 'AI API'],
       projectUrl: 'https://gensio.app/',
@@ -120,7 +120,7 @@ export const resumeData: ResumeData = {
     { category: 'Web Systems', items: ['Java', 'Servlet', 'HTTP', 'Network', 'Supabase', 'PostgreSQL'] },
     { category: 'Development', items: ['Git', 'Code Review', 'pnpm Monorepo', 'Vite'] },
     { category: 'AI Development', items: ['Codex', 'Claude Code'] },
-    { category: 'Agent Workflow', items: ['gstack', 'AGENTS.md', 'Validation Loop'] },
+    { category: 'Agent Workflow', items: ['gstack', 'AGENTS.md'] },
   ],
   education: [
     { school: '한양대학교', major: '경제금융학부 학사', period: '2013.03 ~ 2020.02' },
