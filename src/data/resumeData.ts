@@ -22,7 +22,7 @@ export const resumeData: ResumeData = {
       achievements: [
         'React·TypeScript로 JEUS·WebtoB WebAdmin의 설정·모니터링 화면을 개발했습니다. Figma 화면을 구현하고 서버 설정 모델을 API·DTO·UI에 연결했습니다.',
         'JEUS WebAdmin의 테이블 상태, 비동기 로그 조회, 입력 검증 등 운영 UI 문제를 해결했습니다.',
-        'WebtoB 6 Overview를 카드·섹션 단위로 나누고 event·history·license·ssl 도메인에 맞춰 구조를 정리했습니다.',
+        'WebtoB 6 신규 화면을 개발하며 FSD 기반으로 UI 구조를 재편하고, 반복되는 목록 UI와 반응형 로직을 공용 컴포넌트·훅으로 정리했습니다.',
         '최근에는 JEUS의 Servlet·Valve 요청 흐름을 분석하고, 허용 요청에서 후속 Valve가 중복 호출되는 코드를 수정했습니다.',
       ],
     },
@@ -65,8 +65,7 @@ export const resumeData: ResumeData = {
       period: '2026.01 ~ 2026.04',
       summary: 'Figma 기반 Overview와 설정 화면을 구현하고 조회 API와 DTO를 연결했습니다.',
       achievements: [
-        'widgets/overview에 몰려 있던 UI를 카드·섹션 단위로 나누고 event·history·license·ssl 도메인에 맞춰 구조를 정리했습니다.',
-        'HTTP Header·Error Document·URL Rewrite·Access Policy 네 화면의 반복 목록 UI를 공통화했습니다.',
+        'Feature-Sliced Design 기준으로 UI 구조를 재편하고, 반복되는 목록 UI와 반응형 로직을 공용 컴포넌트·훅으로 정리했습니다.',
       ],
       stack: ['React', 'TypeScript', 'FSD', 'Figma'],
     },
@@ -87,8 +86,8 @@ export const resumeData: ResumeData = {
       period: '2026.07 ~ 현재',
       summary: 'JEUS의 Servlet·Valve 호출과 HTTP 응답 생성 경로를 재현하며 실제 코드 흐름을 추적했습니다.',
       achievements: [
-        '허용 요청에서 다음 Valve가 두 번 호출되는 분기를 찾아 후속 호출을 한 곳으로 모았습니다.',
-        'Content-Length와 Transfer-Encoding이 함께 출력되는 현상을 재현하고, 응답 헤더와 서버 내부 길이 상태가 달라지는 코드 경로를 추적했습니다.',
+        '허용 요청에서 후속 Valve가 중복 호출되는 원인을 찾아 호출 흐름을 수정했습니다.',
+        'HTTP 응답 헤더 불일치 현상을 재현하고, 서버 내부의 응답 생성 경로까지 추적해 원인을 분석했습니다.',
       ],
       stack: ['Java', 'Servlet', 'HTTP', 'Network'],
     },
