@@ -10,7 +10,7 @@ export const PersonalProductCard: React.FC<PersonalProduct> = ({
 
   return (
     <article className={featured
-      ? 'rounded-xl border border-gray-200 bg-gray-50 p-5 sm:p-8'
+      ? 'rounded-xl border border-gray-200 bg-white p-5 sm:p-8'
       : 'rounded-xl border border-gray-200 bg-white p-5 sm:p-6'}>
       <div className="flex flex-wrap items-center gap-3">
         <h3 className={featured ? 'text-2xl font-bold text-gray-900' : 'text-xl font-bold text-gray-900'}>{title}</h3>
