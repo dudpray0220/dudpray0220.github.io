@@ -4,10 +4,7 @@ import type { Profile } from '../../types/resume';
 
 export const Header: React.FC<{ profile: Profile }> = ({ profile }) => (
   <header id="top" className="mb-14 border-b border-gray-200 pb-14 sm:mb-20 sm:pb-20">
-    <div className="mb-14 flex flex-wrap items-center justify-between gap-5">
-      <a href="#top" className="text-sm font-bold tracking-tight text-gray-900 focus-visible:rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-teal-600">
-        {profile.name}
-      </a>
+    <div className="mb-14 hidden justify-end sm:flex">
       <nav aria-label="페이지 섹션" className="hidden flex-wrap gap-x-6 gap-y-2 text-sm text-gray-600 sm:flex">
         <a className="hover:text-teal-700 focus-visible:outline-2 focus-visible:outline-teal-600" href="#experience">Experience</a>
         <a className="hover:text-teal-700 focus-visible:outline-2 focus-visible:outline-teal-600" href="#selected-work">Selected Work</a>

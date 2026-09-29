@@ -57,7 +57,7 @@ export const resumeData: ResumeData = {
         'Server Log 조회에 로딩 표시, 연속 클릭 차단, 지연 안내와 타임아웃 오류 표시를 추가했습니다.',
         'Listener 포트의 필수·중복 검증을 입력 필드에 표시하고, 저장하지 않은 설정을 서버에 적용할 때 경고를 띄웠습니다.',
       ],
-      stack: ['React', 'TypeScript', 'UX'],
+      stack: ['React', 'TypeScript', 'State Management', 'Validation'],
     },
     {
       title: 'WebtoB 6 WebAdmin 신규 화면·구조 개발',
