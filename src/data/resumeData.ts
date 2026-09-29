@@ -15,7 +15,7 @@ export const resumeData: ResumeData = {
   },
   experiences: [
     {
-      company: 'Tmax Soft',
+      company: 'TmaxSoft',
       period: '2025.06 ~ 현재',
       role: 'Frontend Engineer',
       progression: 'WebAdmin Frontend (2025.06~2026.04) → JEUS Servlet/WAS (2026.05~현재)',
@@ -27,7 +27,7 @@ export const resumeData: ResumeData = {
       ],
     },
     {
-      company: 'Tmax Gaia',
+      company: 'TmaxGaia',
       period: '2023.09 ~ 2024.10',
       role: 'Frontend Developer',
       achievements: [
@@ -49,7 +49,7 @@ export const resumeData: ResumeData = {
   projects: [
     {
       title: 'JEUS WebAdmin 운영 UI 안정화',
-      company: 'Tmax Soft',
+      company: 'TmaxSoft',
       period: '2026.01 ~ 2026.08',
       summary: '운영 중 드러난 테이블 상태, 비동기 로그 조회, 설정 입력 문제를 수정했습니다.',
       achievements: [
@@ -61,7 +61,7 @@ export const resumeData: ResumeData = {
     },
     {
       title: 'WebtoB 6 WebAdmin 신규 화면·구조 개발',
-      company: 'Tmax Soft',
+      company: 'TmaxSoft',
       period: '2026.01 ~ 2026.04',
       summary: 'Figma 기반 Overview와 설정 화면을 구현하고 조회 API와 DTO를 연결했습니다.',
       achievements: [
@@ -72,7 +72,7 @@ export const resumeData: ResumeData = {
     },
     {
       title: '오피스 인터랙션 프레임워크 고도화',
-      company: 'Tmax Gaia',
+      company: 'TmaxGaia',
       period: '2024.01 ~ 2024.07',
       summary: '커서와 드래그처럼 브라우저 이벤트·렌더링 타이밍에 민감한 기능을 개발했습니다.',
       achievements: [
@@ -83,7 +83,7 @@ export const resumeData: ResumeData = {
     },
     {
       title: 'HTTP 요청을 Servlet/WAS 내부까지 추적',
-      company: 'Tmax Soft',
+      company: 'TmaxSoft',
       period: '2026.07 ~ 현재',
       summary: 'JEUS의 Servlet·Valve 호출과 HTTP 응답 생성 경로를 재현하며 실제 코드 흐름을 추적했습니다.',
       achievements: [
@@ -96,7 +96,6 @@ export const resumeData: ResumeData = {
   personalProducts: [
     {
       title: 'Gensio',
-      label: 'Featured Product',
       description: 'Next.js·TypeScript 기반 AI 이미지 생성 서비스',
       achievements: [
         '기획부터 개발·배포까지 직접 진행하고 인증·결제·크레딧·이미지 생성 히스토리를 구현했습니다.',
@@ -108,14 +107,13 @@ export const resumeData: ResumeData = {
     },
     {
       title: 'MallowDesk',
-      label: 'Web Tools Collection',
       description: '13개의 웹 도구를 직접 만들어 배포·운영하고 있습니다.',
       achievements: ['출시 후 검색 유입과 실제 사용 흐름을 보며 UI와 SEO를 계속 손보고 있습니다.'],
       variant: 'compact',
     },
   ],
   skills: [
-    { category: 'Frontend', items: ['React', 'TypeScript', 'JavaScript', 'HTML', 'CSS', 'Next.js', 'Vue', 'MobX', 'Vuex'] },
+    { category: 'Frontend', items: ['React', 'TypeScript', 'Next.js', 'JavaScript', 'Vue', 'MobX', 'Vuex', 'HTML', 'CSS'] },
     { category: 'UI & Testing', items: ['Figma', 'Responsive UI', 'Accessibility', 'Jest', 'React Testing Library', 'Storybook'] },
     { category: 'Web Systems', items: ['Java', 'Servlet', 'HTTP', 'Network', 'Supabase', 'PostgreSQL'] },
     { category: 'Development', items: ['Git', 'Code Review', 'pnpm Monorepo', 'Vite'] },
