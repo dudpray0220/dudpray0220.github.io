@@ -8,7 +8,7 @@ export const resumeData: ResumeData = {
     headline: 'React·TypeScript로 기업용 WebAdmin과 웹 서비스를 개발해온 프론트엔드 엔지니어입니다.',
     introduction: [
       '티맥스소프트에서 JEUS·WebtoB WebAdmin을 개발했고, 현재는 JEUS의 Java·Servlet·HTTP 요청 처리까지 직접 분석·수정하고 있습니다.',
-      '개인 서비스 Gensio는 Next.js로 개발해 실제 유료 결제가 발생하는 서비스로 운영하고 있습니다.',
+      '개인 서비스 Gensio는 Next.js로 개발해 실제 유료 서비스로 운영하고 있습니다.',
     ],
     github: 'github.com/dudpray0220',
     email: 'qodudgus0220@naver.com',
