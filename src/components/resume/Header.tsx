@@ -17,13 +17,13 @@ export const Header: React.FC<{ profile: Profile }> = ({ profile }) => (
       </nav>
     </div>
 
-    <div className="max-w-4xl">
+    <div>
       <p className="mb-4 text-sm font-semibold tracking-wide text-teal-700">{profile.eyebrow}</p>
       <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
         {profile.name}
         <span className="mt-3 block text-2xl font-medium text-gray-600 sm:text-3xl">{profile.role}</span>
       </h1>
-      <p className="mt-8 text-2xl font-semibold leading-snug tracking-tight text-gray-900 sm:text-3xl">
+      <p className="mt-8 text-2xl font-semibold leading-snug tracking-tight text-gray-900 xl:text-[27px]">
         {profile.headline}
       </p>
       <div className="mt-7 max-w-3xl space-y-2 text-base leading-8 text-gray-700 sm:text-lg">
