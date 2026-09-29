@@ -18,10 +18,10 @@ export const resumeData: ResumeData = {
       company: 'TmaxSoft',
       period: '2025.06 ~ 현재',
       role: 'Frontend Engineer',
-      progression: 'WebAdmin Frontend (2025.06~2026.04) → JEUS Servlet/WAS (2026.05~현재)',
+      progression: 'WebAdmin Frontend (2025.06~2026.04) · JEUS Servlet/WAS (2026.05~현재)',
       achievements: [
         'React·TypeScript로 JEUS·WebtoB WebAdmin의 설정·모니터링 화면을 개발했습니다. Figma 화면을 구현하고 서버 설정 모델을 API·DTO·UI에 연결했습니다.',
-        'JEUS WebAdmin의 테이블 페이지 초기화 문제를 객체 참조 변경까지 추적해 수정하고, Server Log 조회의 로딩 표시·중복 요청 차단·오류 안내를 추가했습니다.',
+        'JEUS WebAdmin의 테이블 상태, 비동기 로그 조회, 입력 검증 등 운영 UI 문제를 해결했습니다.',
         'WebtoB 6 Overview를 카드·섹션 단위로 나누고 event·history·license·ssl 도메인에 맞춰 구조를 정리했습니다.',
         '최근에는 JEUS의 Servlet·Valve 요청 흐름을 분석하고, 허용 요청에서 후속 Valve가 중복 호출되는 코드를 수정했습니다.',
       ],

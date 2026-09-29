@@ -5,6 +5,8 @@
 body {
   background: #fafbf9;
   color: #1f2937;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 ::selection {
